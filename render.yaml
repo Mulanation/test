@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: natty-xmd
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18.16.0
+      - key: BOT_NAME
+        value: NATTY XMD
+      - key: PREFIX
+        value: "."

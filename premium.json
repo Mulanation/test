@@ -1,0 +1,14 @@
+{
+  "premium_users": [
+    {
+      "id": "263776404156@s.whatsapp.net",
+      "name": "Malvin King",
+      "level": "Developer",
+      "expire": "Infinity"
+    }
+  ],
+  "config": {
+    "limit_commands": false,
+    "premium_only_mode": false
+  }
+}
